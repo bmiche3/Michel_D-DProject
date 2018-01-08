@@ -15,6 +15,10 @@
 		B2288A3E1E75DE7B005C7520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2288A3C1E75DE7B005C7520 /* LaunchScreen.storyboard */; };
 		B2288A491E75DE7B005C7520 /* Michel_D_DProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2288A481E75DE7B005C7520 /* Michel_D_DProjectTests.swift */; };
 		B2288A541E75DE7B005C7520 /* Michel_D_DProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2288A531E75DE7B005C7520 /* Michel_D_DProjectUITests.swift */; };
+		B2288A621E75E787005C7520 /* RollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2288A611E75E787005C7520 /* RollViewController.swift */; };
+		B2288A641E7766AC005C7520 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2288A631E7766AC005C7520 /* ClassViewController.swift */; };
+		B2288A681E776878005C7520 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2288A671E776878005C7520 /* Class.swift */; };
+		B2288A6C1E77A637005C7520 /* Backgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2288A6B1E77A637005C7520 /* Backgrounds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B2288A4F1E75DE7B005C7520 /* Michel_D&DProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Michel_D&DProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2288A531E75DE7B005C7520 /* Michel_D_DProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michel_D_DProjectUITests.swift; sourceTree = "<group>"; };
 		B2288A551E75DE7B005C7520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2288A611E75E787005C7520 /* RollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollViewController.swift; sourceTree = "<group>"; };
+		B2288A631E7766AC005C7520 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		B2288A671E776878005C7520 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Class.swift; path = ../Class.swift; sourceTree = "<group>"; };
+		B2288A6B1E77A637005C7520 /* Backgrounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Backgrounds.swift; path = ../Backgrounds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		B2288A301E75DE7B005C7520 /* Michel_D&DProject */ = {
 			isa = PBXGroup;
 			children = (
+				B2288A6B1E77A637005C7520 /* Backgrounds.swift */,
+				B2288A671E776878005C7520 /* Class.swift */,
 				B2288A311E75DE7B005C7520 /* AppDelegate.swift */,
 				B2288A331E75DE7B005C7520 /* FirstViewController.swift */,
 				B2288A351E75DE7B005C7520 /* SecondViewController.swift */,
 				B2288A371E75DE7B005C7520 /* Main.storyboard */,
+				B2288A631E7766AC005C7520 /* ClassViewController.swift */,
+				B2288A611E75E787005C7520 /* RollViewController.swift */,
 				B2288A3A1E75DE7B005C7520 /* Assets.xcassets */,
 				B2288A3C1E75DE7B005C7520 /* LaunchScreen.storyboard */,
 				B2288A3F1E75DE7B005C7520 /* Info.plist */,
@@ -265,9 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2288A681E776878005C7520 /* Class.swift in Sources */,
+				B2288A6C1E77A637005C7520 /* Backgrounds.swift in Sources */,
 				B2288A361E75DE7B005C7520 /* SecondViewController.swift in Sources */,
+				B2288A641E7766AC005C7520 /* ClassViewController.swift in Sources */,
 				B2288A321E75DE7B005C7520 /* AppDelegate.swift in Sources */,
 				B2288A341E75DE7B005C7520 /* FirstViewController.swift in Sources */,
+				B2288A621E75E787005C7520 /* RollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +532,7 @@
 				B2288A5A1E75DE7B005C7520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2288A5B1E75DE7B005C7520 /* Build configuration list for PBXNativeTarget "Michel_D&DProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				B2288A5D1E75DE7B005C7520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2288A5E1E75DE7B005C7520 /* Build configuration list for PBXNativeTarget "Michel_D&DProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				B2288A601E75DE7B005C7520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
